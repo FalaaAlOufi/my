@@ -1,1 +1,177 @@
 
+html, body { 
+  margin: 0; 
+  padding: 0;
+}
+
+.header { 
+  background-color: #333;
+  width:100%;
+  position:fixed;
+  top:0px; 
+}
+
+.container { /* in head class for all pages */
+  max-width: 940px; /* max width for container class */
+  margin: auto; /* center */
+}            
+
+.nav { /* in HOME page */
+  margin: 0; /* TBRL */
+  padding: 20px 0px; /*TB RL */
+}
+
+.backkgrund { /* in HOME page & Contact page */
+  background: url(http://www.portoalegre.travel/upload/b/18/180367_simple-gif-wallpaper.gif) no-repeat center;
+  background-size: cover; /* cover all the div */
+  height: 651px; /* height of div */
+}
+
+.main  { /* elements in main & in HOME page */
+  position: relative;
+  top: 250px; 
+  text-align: center;
+}
+.main p  { /* welcome word */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.btn-main ,.btn-main2, .btn-main3 {
+ /* background-color: #333; */
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.btn-main{ /* determination padding for each one because the content or length of the sentence is different from each other */
+	padding: 16px 40px;
+}
+.btn-main2 {
+	padding: 16px 58px;
+}
+.btn-main3 {
+	padding: 16px 64px;
+}
+
+.headwork { /* head about & work page */
+  background: url(http://www.portoalegre.travel/upload/b/18/180367_simple-gif-wallpaper.gif) no-repeat center;
+  background-size: cover;
+  height: 200px;
+  position:fixed; /*the image of the header will be fixed even scroll the page*/
+  top:0; /*to start from the top*/
+  width:100%;
+}
+
+.back {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.bt2 { /* back in ( women , man , kids ) pages */
+  background-color: #333;
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.suppor {
+  background: #EEEFF1;
+  width: 90%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin: 90px auto; /* TB RL */
+  text-align: center;
+  min-width:714px; /*min width, if less than 714px , scroll in horizontal*/
+}
+
+.container2 { /* So that the header class doesn't cover the elements of the container */
+  padding: 0 10px;
+  margin-top: 100px; 
+}
+
+.container222 { /* So that the header class doesn't cover the elements of the container */
+  padding: 0 10px;
+  margin-top: 50px; 
+}
+
+.suppor .col {
+  float: left;
+  padding-left:100px; 
+  padding-right:20px; 
+  display: inline;
+  width: 35%; /*to display 2 per line ( img in col div )*/
+}
+
+.suppor .col2 {
+  float: left;
+  padding-left:80px; 
+  padding-right:20px; 
+  width: 80%; 
+}
+.col2 .txt {
+	font-weight: 100;
+  font-size: 20px;
+    text-align: left ;
+
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.suppor img {
+    margin-top: 50px;
+}
+
+.suppor .abutt { 
+  font-weight: 600;
+  font-size: 34px;
+  text-align: left ;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+.container2 .work { 
+  font-weight: 600;
+  font-size: 34px;
+  text-align: center ;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.clearfix {
+  clear: both; 
+}
+
+li {  /* in all pages */ 
+  display: inline; /*display the list in inline */
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 600; /* bold */
+  margin-right: 25px; /* li elements will be not touch each other */
+  text-transform: uppercase;
+}
+a { /* in all pages */
+	text-decoration: none; /*for remove line under a elements */
+	color: red;
+}
+a:hover {
+	color:#8b8b8b 
+}
+
+.footer { /* in all pages */
+  background-color: #333;
+  padding: 10px 0; /* to appear at the bottom of the page */
+}
